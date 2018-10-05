@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>home</servlet-name>
+        <jsp-file>/index.html</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>home</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>create</servlet-name>
+        <jsp-file>/create.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>create</servlet-name>
+        <url-pattern>/create</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>read</servlet-name>
+        <jsp-file>/read.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>read</servlet-name>
+        <url-pattern>/read</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>update</servlet-name>
+        <jsp-file>/update.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>update</servlet-name>
+        <url-pattern>/update</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>delete</servlet-name>
+        <jsp-file>/delete.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>delete</servlet-name>
+        <url-pattern>/delete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>success</servlet-name>
+        <jsp-file>/success.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>success</servlet-name>
+        <url-pattern>/success</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>error</servlet-name>
+        <jsp-file>/error.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>error</servlet-name>
+        <url-pattern>/error</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>allProducts</servlet-name>
+        <jsp-file>/allProducts.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>allProducts</servlet-name>
+        <url-pattern>/allProducts</url-pattern>
+    </servlet-mapping>
+
+</web-app>
