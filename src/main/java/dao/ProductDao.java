@@ -1,6 +1,6 @@
-package dao;
+package main.java.dao;
 
-import model.Product;
+import main.java.model.Product;
 
 import java.util.List;
 

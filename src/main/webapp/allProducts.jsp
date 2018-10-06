@@ -1,11 +1,11 @@
-<%@ page import="model.Product" %>
+<%@ page import="main.java.model.Product" %>
 <%@ page import="java.util.List" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>All products</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
-    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link rel='stylesheet' href='webjars/bootstrap/4.1.3/css/bootstrap.css'/>
+    <link href='css/style.css' rel='stylesheet' type='text/css'/>
 </head>
 <body>
 

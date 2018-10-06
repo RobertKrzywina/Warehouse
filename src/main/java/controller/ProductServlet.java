@@ -1,7 +1,7 @@
-package controller;
+package main.java.controller;
 
-import dao.MysqlProductDao;
-import model.Product;
+import main.java.dao.MysqlProductDao;
+import main.java.model.Product;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

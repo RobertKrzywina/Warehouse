@@ -1,7 +1,7 @@
-package dao;
+package main.java.dao;
 
-import db.ConnectionProvider;
-import model.Product;
+import main.java.db.ConnectionProvider;
+import main.java.model.Product;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
