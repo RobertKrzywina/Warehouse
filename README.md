@@ -11,3 +11,6 @@ Technologies:
 <li>Apache Tomcat</li>
 <li>Maven</li>
 </ul>
+
+# MYSQL WORKBENCH
+In src/java/resources there are 2 files. Just copy this code and paste into mysql, so u will create a schema and table.

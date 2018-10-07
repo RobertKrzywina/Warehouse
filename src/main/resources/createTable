@@ -1,0 +1,6 @@
+CREATE TABLE `products` (
+  `name` varchar(45) NOT NULL,
+  `quantity` int(11) NOT NULL,
+  `price` decimal(10,2) NOT NULL,
+  `available` bit(1) NOT NULL
+)
